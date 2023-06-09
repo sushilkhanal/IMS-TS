@@ -1,0 +1,195 @@
+.form-container {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.form-row {
+  display: flex;
+
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  margin-right: 10px;
+
+  flex-basis: 100px; /* Adjust the width as needed */
+}
+
+.form-row input {
+  border: 1px solid green;
+
+  padding: 8px;
+}
+
+.form-row button {
+  background-color: lightcoral;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 16px;
+
+  cursor: pointer;
+}
+
+.container-1 {
+  padding: 2px;
+
+  margin: 2px;
+}
+
+.container {
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+body {
+  background-image: url('https://uploads-ssl.webflow.com/611b82111c177de53409c4b5/61279f2e0c2bf63f579dfbb4_inventory-management-p-1080.png');
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  height: 100vh;
+
+  width: 100vw;
+}
+
+.image {
+  /* background-image: url("https://uploads-ssl.webflow.com/611b82111c177de53409c4b5/61279f2e0c2bf63f579dfbb4_inventory-management-p-1080.png"); */
+
+  position: relative;
+
+  height: 100vh;
+
+  width: 100vw;
+
+  background-size: cover;
+
+  background-position: center;
+}
+
+.login-container {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+}
+
+.login-content {
+  background-color: #f8f9fa;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+}
+
+.login-title {
+  font-size: 24px;
+
+  margin-bottom: 20px;
+}
+
+.login-form .form-group {
+  margin-bottom: 15px;
+}
+
+.login-form .form-control {
+  width: 100%;
+
+  padding: 10px;
+
+  border: 1px solid #ced4da;
+
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 4px;
+
+  background-color: #007bff;
+
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.login-footer {
+  margin-top: 20px;
+}
+
+.login-footer a {
+  color: #007bff;
+
+  text-decoration: none;
+}
+
+.alert {
+  padding: 10px;
+
+  border-radius: 5px;
+
+  margin-bottom: 10px;
+}
+
+.alert p {
+  margin-bottom: 0;
+}
+
+.alert button {
+  background-color: #0d531b;
+
+  color: white;
+
+  padding: 8px 16px;
+
+  font-size: 14px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.alert button:hover {
+  background-color: #5ba530;
+}
+
+.rounded-square {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+}
